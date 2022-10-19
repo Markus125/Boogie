@@ -84,7 +84,7 @@ header, nav ul{
 header {
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em; 
+  padding: 1em 2em;
 }
 header li {
   list-style: none; /*remove bullet list style*/
@@ -97,3 +97,20 @@ header li {
 
 
 /*END HEADER Styles*/
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap:0px;
+  grid-row-gap:0px;
+}
+
+.Half1 {
+  background-color: green;
+  width: auto;
+  height: 400px;
+}
+.half2 {
+  background-color: purple;
+  width: auto;
+}
